@@ -27,7 +27,7 @@
        "application/sla": "StlHandler"
    },
     "AutoloadClasses": {
-       "StlHandler": "StlHandler_body.php",
+       "StlHandler": "StlHandler_body.php"
    },
    "Hooks": {
 		"ImageOpenShowImageInlineBefore": [

@@ -26,9 +26,9 @@
 	 }
 	public static function onImageOpenShowImageInlineBefore( $imagepage, $out ){
                                 $full_url = $imagepage->getDisplayedFile()->getFullURL();
-                                $out->addHtml(                                          
+										$out->addHtml(                                          
 "<div class='fullMedia'><div id='viewer'><canvas id='stlCanvas' width='600' height='400' style='background:lightgrey;'></canvas></div><span class='fileInfo'>$longDesc</span></div>");
-                                $out->addHtml(ResourceLoader::makeInlineScript("mw.loader.using( 'ext.StlHandler',
+										$out->addHtml(ResourceLoader::makeInlineScript("mw.loader.using( 'ext.StlHandler',
 									function(){
 										initScene('$full_url');
 									});"

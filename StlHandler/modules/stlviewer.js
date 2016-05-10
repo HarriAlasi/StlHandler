@@ -14,6 +14,7 @@
 	var rotationSpeed = 10;
 	var mesh;
   window.initScene = function( file ){
+	  
 
 	var myCanvas = document.getElementById('stlCanvas');
     renderer = new THREE.WebGLRenderer({
