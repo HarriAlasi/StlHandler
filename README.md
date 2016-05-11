@@ -7,7 +7,7 @@ $wgFileExtensions[] = 'stl';
 $wgTrustedMediaFormats[] = "application/sla";
 ```
 
-to some new line in *LocalSettings.php* inside php-tags.
+to some new line in *LocalSettings.php* (located in root folder of your installation) inside php-tags.
 
 - Add the following line 
 ```
