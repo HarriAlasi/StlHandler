@@ -1,6 +1,6 @@
 # Installation guide for StlHandler extension for Mediawiki:
 
-
+- copy the folder *StlHandler* to the */extensions* folder of your Mediawiki installation
 - Add the following lines
 ```php
 $wgFileExtensions[] = 'stl';
