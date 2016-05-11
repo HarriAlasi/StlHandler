@@ -16,3 +16,5 @@ application/sla stl
 to the beginning of the file *mime.types* located in the */includes* folder
 
 - You're all done! Now you should be able to upload STL files and view them inside a viewer on the file page
+# Is theextension up in the Mediawiki testing environment=
+No (as of 11.05.16)
