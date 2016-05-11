@@ -4,6 +4,7 @@
 - Add the following lines
 ```php
 $wgFileExtensions[] = 'stl';
+wfLoadExtension( 'StlHandler' ); 
 $wgTrustedMediaFormats[] = "application/sla";
 ```
 
