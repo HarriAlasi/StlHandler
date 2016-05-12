@@ -22,7 +22,7 @@
  */
  class StlHandler extends ImageHandler {
 	public static function onBeforePageDisplay ( OutputPage $out, Skin $skin){
-		if (strpos($out->getTitle()->getPrefixedText(),"file")){ //is file page
+		if (substr($out->getTitle()->getPrefixedText(),0)==="file:"){ //is file page
 				if( $out->getWikiPage()->getFile()->getMimeType() === 'application/sla' ){
 					$out->addModules('ext.StlHandler');
 				}
