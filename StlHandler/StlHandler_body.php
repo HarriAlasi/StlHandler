@@ -42,9 +42,5 @@
 		}
 	}
 	 function doTransform( $image, $dstPath, $dstUrl, $params, $flags = 0){
-		 //TODO
-		 
-		
-	
 	}
 }
